@@ -10,4 +10,9 @@ public class HelloController {
     public String hello() {
         return "Hello from Spring Boot running locall!";
     }
+
+    @GetMapping("/hello-cloud")
+    public String helloFromCloud() {
+        return "Hello, Ahmed from Spring Boot running in the Cloud!";
+    }
 }
