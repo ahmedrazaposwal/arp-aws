@@ -15,4 +15,9 @@ public class HelloController {
     public String helloFromCloud() {
         return "Hello, Ahmed from Spring Boot running in the Cloud!";
     }
+
+    @GetMapping("/hello-shakir")
+    public String sayHelloToShakir() {
+        return "Hello Shakir from Cloud";
+    }
 }
